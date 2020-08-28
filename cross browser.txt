@@ -1,0 +1,28 @@
+to check the application is stable or comnpatable in all broser paltform.
+Test Ng xml= cross browser testing
+
+
+
+public class b
+@parameter("Browser")
+@test
+public void tc1(string  s)
+
+public webdriver driver;
+If(s.equals("chrome"){
+system.setpropert("webdriver.chrome.driver","location of chrome driver")
+driver = new chromeDriver()
+louching chrome driver();
+}
+elseif(s.equals("firefox"){
+system.setpropert("webdriver.gectco.driver","location of firefor driver")
+driver = new firefoxDriver()
+louching firefox driver();
+
+else{
+system.setpropert("webdriver.ie.driver" "location of ie driver")
+driver = new InternetExplorerDriver()
+louching chrome driver();
+
+driver.get("facebook.com");
+all the three differebnt broweser launching by different thread at a same time.
